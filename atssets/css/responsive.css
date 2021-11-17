@@ -1,0 +1,65 @@
+/* pc */
+@media (min-width: 1025px){
+    .col {
+        float: left;
+        padding: 16px;
+    }
+
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+}
+
+/* tablet */
+@media (min-width: 739px) and (max-width: 1024px) {
+    .col {
+        float: left;
+        padding: 16px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .col {
+        float: left;
+        padding: 16px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+   /* menu list */
+.menu__list {
+    border: 1px solid #000;
+    display: block;
+}
+
+.menu__item {
+    border: 1px solid #000;
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+}
+.menu__item-link {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    padding: 2px;
+    text-decoration: none;
+    width: 100%;
+}
+
+}
